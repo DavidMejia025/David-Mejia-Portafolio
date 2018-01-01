@@ -24,6 +24,13 @@
     background-color: #ffffaa;
     color: black;
 }
+.footer{
+        background-color: #222;
+        text-align: right;
+        padding:20px;
+        color: #fff;
+    }
+
 .containter{
 }
     #image{
@@ -45,10 +52,29 @@
         right: 50;
         width: 600px;
         height: 200px;
-    }
-    .text{
         position: relative;
     }
+    #button{
+        position:relative;
+        top: 120px;
+        left: 550px;
+
+    }
+    .button{
+        font: bold 16px Arial;
+          text-decoration: none;
+          background-color: #999900;
+          color: white;
+          padding: 10px 20px 10px 20px;
+          border-radius:5px;
+          border-style: outset;
+          border-top: 3px solid #444400;
+          border-right: 3px solid #777700;
+          border-bottom: 3px solid #777700;
+          border-left: 3px solid #444400;
+          
+    }
+    /*--------------------SKILLs--------------------------------*/
     #image2{
         float: left;
         width: 2050px;
@@ -58,15 +84,51 @@
         background-repeat: no-repeat;
         background-size: 80% 100%;
     }
-    #image3{
-        float: left;
-        width: 2050px;
-        height: 500px;
-        padding: 30px;
-        background-image: url("./images/wood.jpeg");
-        background-repeat: no-repeat;
-        background-size: 80% 100%;
+    h3 {
+        font-size: 24px;
+        text-align: center
     }
+    .containers{
+        margin: 0 auto;
+        width: 900px;
+        clear: both;
+    }
+    .skill{
+        clear: both;
+    }
+
+    .item{
+        float: left;
+    }
+    .img1{
+        width:70px;
+        height:70px;
+        margin:30px;
+    }
+    .img2{
+        width:250px;
+        height:90px;
+        margin:30px;
+    }
+
+    /*------------------------Portafolio-------------------------------*/
+    .container{
+        margin: 0 auto;
+        width: 1200px;
+        clear: both;
+    }
+    .img3 {
+        width:250px;
+        height:100px;
+        margin:30px;
+    }
+    .object{
+        float:left;
+    }
+    h4{
+        width: 200;
+    }
+    /*--------------------------------------------------------*/
     #image4{
         float: left;
         width: 2050px;
@@ -100,9 +162,6 @@
     display: table;
     clear: both;
 }
-    .footer{
-    	background-color: #222;
-    	text-align: right;
-    	padding:20px;
-    	color: #fff;
-    }
+    
+
+    
