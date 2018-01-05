@@ -1,0 +1,238 @@
+
+*{box-sizing: border-box}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.home-wrapper{
+  background-attachment: fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('./images/road.jpeg') no-repeat center top;
+  background-size: cover;
+  color:white;
+}
+
+header nav {
+	background-color: #222222;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+header nav a{
+	float: right;
+	display: inline-block;
+	padding: 10px 0px;
+  margin:0 10px;
+	background-color: #222222;
+  color: #aaa;
+	text-align: right;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+header nav a:hover{
+	background-color: #111111f;
+	color:#ffdd11;
+}
+
+header nav a.active {
+background-color: #fed136;
+color: black;
+}
+
+#home h1{
+    color: white;
+    border-color: red;
+    border-width: 5px;
+    position: relative;
+
+
+}
+
+#home a button{
+    font: bold 16px Arial;
+      text-decoration: none;
+      background-color: #fed136;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius:5px;    
+}
+/*----------------------Skills----------------------------------*/
+.skill{
+        margin:auto;
+        width: 100%;
+        clear: both;
+        
+        padding:20px;
+    }
+
+    .item1{
+        border:blue;
+        margin-right: 25px;
+        margin-left: 25px;
+        float: left;
+        border:blue;
+
+    }
+    .item2{
+        border:blue;
+        margin-right: 40px;
+        margin-left: 40px;
+        float: left;
+        border:blue;
+        padding:10px;
+
+    }
+    .item3{
+        border:blue;
+        padding:20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        float: left;
+        border:blue;
+
+    }
+
+    .skill h1 {
+        margin:30px;;
+        color: #222222;
+        text-align: center
+    }
+    .containers h3{
+        text-align: center;
+        color: #444444;
+        border:black;
+        margin:0;
+    }
+    .containers h5{
+        text-align: center;
+        color: #777777;
+        margin:0;
+        border:black;
+    }
+    img.img1{
+        display:block;
+        margin:auto;
+        width: 50%;
+        width:70px;
+        height:70px;
+        margin:30px;
+    }
+    img.img2{
+        width:250px;
+        height:70px;
+        margin:30px;
+    }
+
+/* ---------------------Portafolio---------------------------------*/
+
+#portafolio {
+  width:100%;
+  display: inline-block;
+}
+.img3 {
+        width:300px;
+        height:150px;
+        margin:30px;
+    }
+    .object{
+        float:left;
+        margin:30px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    h4{
+        width: 200;
+    }
+
+    .title{
+        font-size: xx-large;
+    }
+
+    .description{
+        margin:50px;
+        padding:10px;
+        clear: both;
+        color:#555555;
+    }
+
+    .item{
+        float: left;
+    }
+
+    .clear{
+        clear: top;
+    }
+    .title{
+        text-align: center;
+    }
+    .object{
+    }
+    .img4{
+        display: block;
+    margin: auto;
+    width: 40%;
+
+    }
+    img.img5{
+        float:left;
+        margin-left: 60px;
+    width: 40%;
+
+    }
+/*---------------------Contacto--------------------------------*/
+
+#contacto {
+  background: url('./images/map.png') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+#contacto h1{
+    text-align: center;
+    color:#555555;
+}
+
+#contacto h2{
+    color:#555555;
+    text-align: center;
+}
+
+form{
+    margin:auto;
+    width: 50%
+}
+input {
+    display:block;
+    margin:20px 20px 20px 170px;
+    width: 350px;
+    background-color: #bbbbbb;
+    height: 20px;
+
+}   
+
+textarea {
+    display:block;
+    margin:20px 20px 20px 170px;
+    width: 350px;
+    background-color: #bbbbbb;
+    height: 100px;
+
+}  
+/* ---------------------General---------------------------------*/
+section {
+  padding:80px 0;
+}
+
+.container {
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+

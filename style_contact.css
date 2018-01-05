@@ -41,16 +41,16 @@
 .container{
     border:solid green 2px;
     margin: auto;
-    width:50%;
+    width:40%;
     background: #222222;
 }
 
-h1{
+#contacto h1{
     text-align: center;
     color:#ffffff;
 }
 
-h2{
+#contacto h2{
     color:#ffffff;
     text-align: center;
 }
@@ -65,7 +65,8 @@ input {
     display:block;
     margin:20px 20px 20px 170px;
     width: 350px;
-    background-color: #bbbbbb;
+    /*background-color: #bbbbbb;*/
+    background-color: red;
     height: 20px;
 
 }

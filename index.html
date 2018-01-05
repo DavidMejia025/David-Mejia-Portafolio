@@ -2,51 +2,213 @@
 <html>
 <head>
 	<title>David_Mejia</title>
-<link rel="stylesheet" type="text/css" href="style_index.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-	<div class="container_i">
-        <div class="Navmenu">
-                <a href="contact.html">CONTACT</a>
-                <a href="experience.html">Experience/Bio</a>
-                <a href="portfolio.html">PORTFOLIO</a>
-                <a href="skills.html">SKILLS</a>
-        </div>
-    		<div id="image">
-                <div class = "text">
-                <h1> DAVID MEJIA</h1>
-                <h1> FULL STACK WEB DEVELOPER </h1>
-                <h1> ELECTRONICS ENGINEER</h1>    
+    <div class="home-wrapper">
+
+    	<header>
+                <nav>
+            <div class="container">
+                    <a href="#contacto">CONTACT</a>
+                    <a href="#experiencia">Experience/Bio</a>
+                    <a href="#portafolio">PORTFOLIO</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#home" class= "active">HOME</a>
+            </div>
+                </nav>
+        </header> 
+        <section id="home">
+                <div>
+                    <h1> DAVID MEJIA</h1>
+                    <h1> FULL STACK WEB DEVELOPER </h1>
+                    <h1> ELECTRONICS ENGINEER</h1>    
                 </div>
-                <div id="button">
-                    <a  class="button" href="./skills.html">ENTER</a>
+                <a  class="button" href="./skills.html"> <button>ENTER</button></a>
+        </section>
+    </div>
+
+    <section id="skills">
+            <div class="container">
+                <div class="skill">
+                    <h1>FRONTEND SKILLS</h1>
+                    <div class="containers">
+                        <div class="item1">
+                            <img src="images/skills/html5.png" alt="html" class="img1">
+                            <h3> HTML5 </h3>
+                        </div>
+                        <div class="item1">
+                            <img src="images/skills/css3.png" alt="html" class="img1">
+                            <h3>CSS3</h3>
+                        </div>
+                        <div class="item1">
+                            <img src="images/skills/bootstrap.png" alt="html" class="img1">
+                            <h3> Boostrap</h3>
+                        </div>
+                        <div class="item1">
+                            <img src="images/skills/js.png" alt="html" class="img1">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="item1">
+                            <img src="images/skills/jquery.png" alt="html" class="img2">
+                            <h3>Jquery & ajax </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h1>BACKEND SKILLS</h1>
+                    <div class="containers">
+                       <div class="item2">
+                            <img src="images/skills/ruby.png" alt="html" class="img1">
+                            <h3>Ruby</h3>
+                            <h5>Programing lenguage</h5>
+                        </div>
+                        <div class="item2">
+                            <img src="images/skills/mysql.png" alt="html" class="img1">
+                            <h3>MySQL</h3>
+                            <h5>Database manager</h5>
+                        </div>
+                        <div class="item2">
+                            <img src="images/skills/posgress.png" alt="html" class="img1">
+                            <h3> PostgresSQL</h3>
+                            <h5>Opensource Database </h5>
+                            <h5> manager</h5>
+                        </div>
+                        <div class="item2">
+                            <img src="images/skills/sinatra.jpg" alt="html" class="img1">
+                            <h3>Sinatra</h3>
+                            <h5>Opensource ruby </h5>
+                            <h5>based framework</h5>
+                        </div>
+                        <div class="item2">
+                            <img src="images/skills/rails.png" alt="html" class="img1">
+                            <h3>Rails</h3>
+                            <h5>Agile webdevelopment </h5>
+                            <h5> framework</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                        <h1>ENGINEERING SKILLS</h1>
+                    <div class="containers">
+                        <div class="item3">
+                            <img src="images/skills/matlab.jpg" alt="html" class="img1">
+                            <h3>Matlab</h3>
+                        </div>
+                        <div class="item3">
+                            <img src="images/skills/labview.png" alt="html" class="img1">
+                            <h3>Labview</h3>
+                        </div>
+                        <div class="item3">
+                            <img src="images/skills/c++.png" alt="html" class="img1">
+                            <h3>C++</h3>
+                            <h5>Programing lenguage</h5>
+                        </div>
+                        <div class="item3">
+                            <img src="images/skills/arduino.png" alt="html" class="img1">
+                            <h3>Arduino</h3>
+                            <h5>Agile Hardware </h5>
+                            <h5> development</h5>
+                        </div>
+                        <div class="item3">
+                            <img src="images/skills/eagle.png" alt="html" class="img1">
+                            <h3>Eagle</h3>
+                            <h5>CAD software</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
-    </div> 
-    <!-- <div id="skills">
-        <div id="image2">
-            <h1>My soft skills are.</h1>
-            
-        </div>
-    </div>
-    <div id= "portfolio">
-        <div id="image3">
-            <h1>My portafolio is.</h1>
-        </div>
-    </div>
-    <div id= "experience">
-        <div id="image4">
-            <h1>My experience is.</h1>
-        </div>
-    </div>
-    <div id="contact">
-        <div id="image5">
-            <h1>contact here.</h1>
-        </div>
-    </div>
-	<div class="footer">
-		contact info.
-	</div> -->
+    </section>
+
+    <section id="portafolio">
+        <div class="container">
+                <div class= "item">
+                    <h2> SuperFlow:</h2>
+                    <a href="./portfolio.html#super_flow"><img class="img3" src="./images/portafolio/superstack.png" alt=""></a>
+                </div>
+                
+                <div class= "item">
+                    <h2> Picas y Fijas:</h2>
+                    <a href="./portfolio.html#picas_fijas"><img class="img3" src="./images/portafolio/p1.jpg" alt=""></a>
+                </div>
+
+                <div class= "item">
+                    <h2> Portafolio:</h2>
+                    <a href="portafolio"><img class="img3" src="./images/portafolio/portfolio.png" alt=""></a>
+                </div>
+
+                <div class= "item">
+                    <h2> Reto-E:</h2>
+                    <img class="img3" src="./images/portafolio/p1.jpg" alt="">
+                </div>
+
+                <div class= "item">
+                    <h2> SmartCity scalled model:</h2>
+                    <img class="img3" src="./images/portafolio/p1.jpg" alt="">
+                </div>
+
+                <div class= "item">
+                    <h2> Microgrid Laboratory test bed:</h2>
+                    <img class="img3" src="./images/portafolio/p1.jpg" alt="">
+                </div>
+
+        <div class:clear></div>
+       </div>
+    </section>
+
+    <section id="experiencia">
+            <div class="container">
+                <div id="image4">
+                    <h3> Experiencia y educación:</h3>
+                    
+                    <ul>
+                        <li> 
+                            Full stack web developer.
+                            Bootcamp: Make it Real
+                        </li>
+                        <li> 
+                            Building Care
+                            Emprendimiento
+                        </li>
+                        <li> 
+                            Profesor sistemas digitales
+                            Universidad Libre
+                        </li>
+                        <li> 
+                            Reto E Codensa
+                            Emprendimiento sector de eficiencia energetica
+                        </li>
+                        <li> 
+                            Asistente de investigación 
+                            Proyecto Silice 3: Hacia una ciudad inteligente 
+                            Pontificia Universidad Javeriana
+                        </li>
+                        <li> 
+                            Ingeniero electronico 
+                            Pontificia Universidad Javeriana
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h1>CONTACT ME!</h1>
+            <h2>¿Tienes una pregunta o deseas que trabajemos juntos?</h2>
+            <form action="/index">
+                <div><input type="text" placeholder="Nombre"></div>
+                <div><input type="text" placeholder="Email"></div>
+                <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
+                <input type="submit" id="submit">
+            </form>
+        </div> 
+    </section>
+
+
 </body>
 </html>
