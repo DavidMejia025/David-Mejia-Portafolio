@@ -43,22 +43,29 @@ background-color: #fed136;
 color: black;
 }
 
+#home {
+  padding:200px 0px 200px;
+}
+
 #home h1{
     color: white;
     border-color: red;
     border-width: 5px;
     position: relative;
-
-
+    top:200px;
+    left:100px;
 }
 
 #home a button{
-    font: bold 16px Arial;
-      text-decoration: none;
+    font-size:16px;
+    font-weight: bold; 
       background-color: #fed136;
-      color: white;
+      color: rgb(45,45,45);
       padding: 10px 20px 10px 20px;
       border-radius:5px;    
+      text-align: center;
+      margin-left:500px;
+      margin-top: 100px;
 }
 /*----------------------Skills----------------------------------*/
 .skill{
@@ -132,6 +139,7 @@ color: black;
 #portafolio {
   width:100%;
   display: inline-block;
+  background-color: whitesmoke;
 }
 .img3 {
         width:300px;
