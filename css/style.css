@@ -9,7 +9,7 @@ body {
 
 .home-wrapper{
   background-attachment: fixed;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('./images/road.jpeg') no-repeat center top;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('../images/road2.jpeg') no-repeat center top;
   background-size: cover;
   color:white;
 }
@@ -52,20 +52,21 @@ color: black;
     border-color: red;
     border-width: 5px;
     position: relative;
-    top:200px;
-    left:100px;
+    top:105px;
+    left:70px;
 }
 
-#home a button{
+#home .button{
     font-size:16px;
     font-weight: bold; 
+    text-decoration:none;
       background-color: #fed136;
       color: rgb(45,45,45);
       padding: 10px 20px 10px 20px;
       border-radius:5px;    
       text-align: center;
-      margin-left:500px;
-      margin-top: 100px;
+      margin-left:630px;
+      margin-top: 80px;
 }
 /*----------------------Skills----------------------------------*/
 .skill{
@@ -141,6 +142,8 @@ color: black;
   display: inline-block;
   background-color: whitesmoke;
 }
+
+
 .img3 {
         width:300px;
         height:150px;
@@ -188,6 +191,7 @@ color: black;
     width: 40%;
 
     }
+
     img.img5{
         float:left;
         margin-left: 60px;
@@ -400,18 +404,18 @@ color: black;
 /*---------------------Contacto--------------------------------*/
 
 #contacto {
-  background: url('./images/map.png') no-repeat center center fixed;
+  background: url('../images/map-background2.jpg') no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
 #contacto h1{
     text-align: center;
-    color:#555555;
+    color:#bbbbbb;
 }
 
 #contacto h2{
-    color:#555555;
+    color:#bbbbbb;
     text-align: center;
 }
 
@@ -421,29 +425,47 @@ form{
 }
 input {
     display:block;
-    margin:20px 20px 20px 170px;
+    margin:10px 10px 10px 170px;
     width: 350px;
     background-color: #bbbbbb;
     height: 20px;
+    color:#444444;
 
 }   
 
+#submit{
+  margin-left: 420px;
+  margin-top:0;
+  width:100px;
+  border-radius: 3px;
+  padding:15px;
+  text-align: center;
+}
+
 textarea {
     display:block;
-    margin:20px 20px 20px 170px;
+    margin:25px 10px 0px 170px;
     width: 350px;
     background-color: #bbbbbb;
     height: 100px;
-
 }  
+
 /* ---------------------General---------------------------------*/
 section {
   padding:80px 0;
 }
 
-.container {
+.containers {
   width: auto;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+/* ------------------Portafolio----------------------------------*/
+
+.description {
+  text-align: justify;
+  margin:auto;
+  width: 75%;
 }
 

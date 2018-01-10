@@ -1,7 +1,9 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 	$('nav a').on("click",function(){
-		console.log("nav bar")
+		$('nav a').each(function(i,selector){
+			$(selector).removeClass('active')
+		})
 		$(this).addClass('active');
 	})
 
@@ -13,5 +15,4 @@ $( document ).ready(function() {
 		})
 	})
 
-	
 });

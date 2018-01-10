@@ -2,12 +2,19 @@
 <html>
 <head>
 	<title>David_Mejia_skills</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <script src="./js/app.js"></script>
 </head>
 <body>
-	<div class="home-wrapper">
-
-      <header>
+<!-- 	<div class="home-wrapper">
+        <header>
                 <nav>
             <div class="container">
                     <a href="./index.html#contacto">CONTACT</a>
@@ -18,51 +25,73 @@
             </div>
                 </nav>
         </header> 
-  </div>
-  <div class="container">
- 			<div class= "object">
- 				
-        		<div id= "super_flow">
-            		<h2 class= "title"> SuperFlow:</h2>
-            		<img class="img4" src="./images/portafolio/superstack.png" alt="">
-            	    <div class="description">
-            	    	<a href="https://calm-falls-73396.herokuapp.com/"> <p>https://calm-falls-73396.herokuapp.com/</p>li</a>
-            			<h4> Es una aplicacion  que funciona como la pagina stack overflow, en esta pagina un usuario puede ver diferentes preguntas relacionadas con problemas de programacion que hallan sido realizadas con anterioridad. Si la persona se registra en la pagina tiene acceso total a la aplicación con lo cual puede hacer preguntas, responder preguntas de otros usuarios, realizar comentarios a las preguntas y respuestas. En esta pagina se busca una interacción entre personas expertas y principiantes que puedan dar solucion a sus problemas de codigo.</h4>
-            		</div>
-            	</div>
+    </div> -->
 
-            	<div id= "picas_fijas">
-            		<h2 class= "title"> Picas y Fijas:</h2>
-            		<img class="img4" src="./images/portafolio/p1.jpg" alt="">
-            	    <div class="description">
-            			<h4>Aplicación para jugar el juego de picas y fijas. En este juego un participante debe adivinar el numero de 4 digitos que la maquina escogio. La dinamica consiste en que el jugador le envia un numero al computador y este le responde cuantos numeros son picas (estan en el numero en un orden equivocado) y cuantos numeros son fijas (aquellos numeros que se encuentran en la posición correcta)</h4>
-            		</div>
-            	</div>
+    <div class="container">
+    	<div id= "super_flow">
+    		<h2 class= "title"> SuperFlow:</h2>
+    		<img class="img5" id="superflow"src="./images/portafolio/superstack.png" alt="">
+            <img class="img5" id="superflow"src="./images/portafolio/superstack2.png" alt="">
+    	    <div class="description">
+    	    	<a href="https://calm-falls-73396.herokuapp.com/"> <p>https://calm-falls-73396.herokuapp.com/</p></a>
+    			<h4> Es una aplicacion  que funciona como la pagina stack overflow, en esta pagina un usuario puede ver diferentes preguntas relacionadas con problemas de programacion que hallan sido realizadas con anterioridad. Si la persona se registra en la pagina tiene acceso total a la aplicación con lo cual puede hacer preguntas, responder preguntas de otros usuarios, realizar comentarios a las preguntas y respuestas. En esta pagina se busca una interacción entre personas expertas y principiantes que puedan dar solucion a sus problemas de codigo.</h4>
+    		</div>
+    	</div>
 
-            	<div id= "portafolio">
-            		<h2 class= "title"> Portafolio:</h2>
-            		<img class="img5" src="./images/portafolio/portfolio.png" alt="">
-            		<img class="img5" src="./images/portafolio/portfolio2.png" alt="">
-            	    <div class="description">
-            			<h4>Este proyecto corresponde a una pagina web estatica destinada a mostrar mis habilidades y capacidades como fullstack web developer. La pagina es construida unicamente con HTML5 y CSS3.</h4>
-            		</div>
-            	</div>
+    	<div id= "p_proyectos">
+    		<h2 class= "title"> Picas y Fijas:</h2>
+    		<img class="img4" src="./images/portafolio/picas_fijas.jpg" alt="">
+    	    <div class="description">
+    			<h4>Aplicación para jugar el juego de picas y fijas. En este juego un participante debe adivinar el numero de 4 digitos que la maquina escogio. La dinamica consiste en que el jugador le envia un numero al computador y este le responde cuantos numeros son picas (estan en el numero en un orden equivocado) y cuantos numeros son fijas (aquellos numeros que se encuentran en la posición correcta)</h4>
+    		</div>
+    	</div>
 
-            	<div id= "SC">
-            		<h2 class= "title"> Smart city scalled model:</h2>
-            		<img class="img4" src="./images/portafolio/p1.jpg" alt="">
-            	    <div class="description">
-            	    	<a href="http://www.javeriana.edu.co/pesquisa/por-una-red-electrica-mas-eficiente/"> <p>SILICE III – Hacia una ciudad inteligente </p></a>
-            			<h4>Descripción: El proyecto Silice 3 Hacia una ciudad inteligente fue
-            			realizado por la universidad Javeriana para Colciencias y Codensa. En este
-            			trabajo participe dirigiendo 3 estudiantes con los cuales fabricamos una 
-            			maqueta de una ciudad inteligente (Ver figura). La maqueta tiene la capacidad
-            			de mostrar algunas caracteristicas de una red electrica inteligente como son:
-            		    Monitoreo en tiempo real del estado de la red y self-healing, generacion distribuida,
-            			infraestructura de medicion avanzada, respuesta de la demanda etc.</h4>
-            		</div>
-            	</div>
- 			</div>       
-	</div> 
+    	<div id= "portafolio">
+    		<h2 class= "title"> Portafolio:</h2>
+    		<img class="img5" src="./images/portafolio/portfolio.png" alt="">
+    		<img class="img5" src="./images/portafolio/portfolio2.png" alt="">
+    	    <div class="description">
+    			<h4>Este proyecto corresponde a una pagina web estatica destinada a mostrar mis habilidades y capacidades como fullstack web developer. La pagina es construida unicamente con HTML5 y CSS3.</h4>
+    		</div>
+    	</div>
+
+        <div id= "reto-e">
+            <h2 class= "title"> Reto-e:</h2>
+            <img class="img4" src="./images/portafolio/reto_E.png" alt="">
+            <div class="description">
+                <h4> Este reto me permitio poner mis habilidades y competencias de responsabilidad y trabajo en equipo
+                desde el liderazgo de un equipo de 4 personas con el cual participacipe en el concurso de emprendimiento
+                e Innovación Reto-E de Codensa. Este reto fue orientado a proveer soluciones de eficiencia energética
+                para empresas MyPimes en Colombia. Nuestra propuesta SiEM (Smart industry Energy Management)
+                llego hasta la semifinal y obtuvo el 5 puesto entre 75 grupos a nivel nacional, realizando una deteccin
+                de falencias en el consumo de energia de las Mypimes y desarrollando la visión para la detección de
+                oportunidades de nuevos negocios.
+                </h4>
+            </div>
+
+    	<div id= "SC">
+    		<h2 class= "title"> Smart city scalled model:</h2>
+    		<img class="img4" src="./images/portafolio/p1.jpg" alt="">
+    	    <div class="description">
+    	    	<a href="http://www.javeriana.edu.co/pesquisa/por-una-red-electrica-mas-eficiente/"> <p>SILICE III – Hacia una ciudad inteligente </p></a>
+    			<h4>Descripción: El proyecto Silice 3 Hacia una ciudad inteligente fue
+    			realizado por la universidad Javeriana para Colciencias y Codensa. En este
+    			trabajo participe dirigiendo 3 estudiantes con los cuales fabricamos una 
+    			maqueta de una ciudad inteligente (Ver figura). La maqueta tiene la capacidad
+    			de mostrar algunas caracteristicas de una red electrica inteligente como son:
+    		    Monitoreo en tiempo real del estado de la red y self-healing, generacion distribuida,
+    			infraestructura de medicion avanzada, respuesta de la demanda etc.</h4>
+    		</div>
+    	</div>
+
+        <div id= "mg">
+            <h2 class= "title"> Microgrid Laboratory test bed:</h2>
+            <img class="img5" src="./images/portafolio/mg1.jpg" alt="">
+            <img class="img5" src="./images/portafolio/mg2.jpg" alt="">
+            <div class="description">
+                <h4>Proyecto de investigación en el cual se construyo una plataforma de pruebas de un micro red electria en escala de laboratorio. La microred cuenta con paneles solares como segunda fuente de alimentación y un sistema de medicion avanzada que es capaz de registrar los datos de consumo de energia de los usuarios.</h4>
+            </div>
+        </div>
+    </div>        
 </body>
 </html>
