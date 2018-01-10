@@ -35,3 +35,37 @@
         border: green solid 4px;
         margin: 5px;
     }
+
+    .block {
+    }
+
+    .content-right {
+        margin:auto;
+        width: 50%;
+        float:right;
+    }
+
+    .content-left {
+        margin:auto;
+        width: 50%;
+        float:left;
+    }
+
+    .content-center {
+        margin:auto;
+        width: 50%;
+
+    }
+
+    h3 {
+        position: relative;
+    }
+
+    ul {
+        position: relative;
+        margin-left: 200px;
+    }
+
+    ul li{
+        position:relative:
+    }
