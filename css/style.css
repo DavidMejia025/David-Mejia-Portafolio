@@ -2,8 +2,8 @@
 *{box-sizing: border-box}
 
 /* * {
-   outline: 1px solid red;
-  }*/
+ outline: 1px solid red;
+}*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -25,32 +25,32 @@ h2 {
 }
 
 header nav {
-	background-color: #222222;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+  background-color: #222222;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 header nav a{
-	float: right;
-	display: inline-block;
-	padding: 10px 0px;
+  float: right;
+  display: inline-block;
+  padding: 10px 0px;
   margin:0 10px;
-	background-color: #222222;
+  background-color: #222222;
   color: #aaa;
-	text-align: right;
-    font-size: 18px;
-    text-decoration: none;
-    
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+  
 }
 
 header nav a:hover{
-	background-color: #111111f;
-	color:#ffdd11;
+  background-color: #111111f;
+  color:#ffdd11;
 }
 
 header nav a.active {
-background-color: #fed136;
-color: black;
+  background-color: #fed136;
+  color: black;
 }
 
 #home {
@@ -60,11 +60,11 @@ color: black;
 .name{
   display:inline-block;
   color: white;
-    border-color: red;
-    border-width: 5px;
-    position: relative;
-    top:145px;
-    left:70px;
+  border-color: red;
+  border-width: 5px;
+  position: relative;
+  top:145px;
+  left:70px;
 }
 
 .name h1{
@@ -73,203 +73,205 @@ color: black;
 }
 
 #home .button{
-    font-size:16px;
-    font-weight: bold; 
-    text-decoration:none;
-      background-color: #fed136;
-      color: rgb(45,45,45);
-      padding: 10px 20px 10px 20px;
-      border-radius:5px;    
-      text-align: center;
-      margin-left: 0px;
-      position:relative ;
-      top: 175px;
+  font-size:16px;
+  font-weight: bold; 
+  text-decoration:none;
+  background-color: #fed136;
+  color: rgb(45,45,45);
+  padding: 10px 20px 10px 20px;
+  border-radius:5px;    
+  text-align: center;
+  margin-left: 0px;
+  position:relative ;
+  top: 175px;
 }
 
 /*----------------------Skills----------------------------------*/
 .skill{
-        width: 100%;
-        margin:auto;
-        clear: both;
-        padding:20px;
-    }
+  width: 100%;
+  margin:auto;
+  clear: both;
+  padding:20px;
+}
 
-    .item1{
-        border:blue;
-        margin-right: 25px;
-        margin-left: 25px;
-        float: left;
-        border:blue;
+.item1{
+  border:blue;
+  margin-right: 25px;
+  margin-left: 25px;
+  float: left;
 
-    }
-    .item2{
-        border:blue;
-        margin-right: 30px;
-        margin-left: 30px;
-        float: left;
-        border:blue;
-        padding:10px;
+}
+.item1 img,
+.item2 img,
+.item3 img{
+  border-radius: 50%
+}
+.item2{
+  border:blue;
+  margin-right: 30px;
+  margin-left: 30px;
+  float: left;
+  border:blue;
+  padding:10px;
 
-    }
-    .item3{
-        border:blue;
-        padding:20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        float: left;
-        border:blue;
+}
+.item3{
+  border:blue;
+  padding:20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: left;
+  border:blue;
 
-    }
+}
 
-    .skill h1 {
-        margin:30px;;
-        color: #222222;
-        text-align: center
-    }
-    .containers h3{
-        text-align: center;
-        color: #444444;
-        border:black;
-        margin:0;
-    }
-    .containers h5{
-        text-align: center;
-        color: #777777;
-        margin:0;
-        border:black;
-    }
-    img.img1{
-        display:block;
-        margin:auto;
-        width: 50%;
-        width:70px;
-        height:70px;
-        margin:30px;
-    }
-    img.img2{
-        width:250px;
-        height:70px;
-        margin:30px;
-    }
+.skill h1 {
+  margin:30px;;
+  color: #222222;
+  text-align: center
+}
+.containers h3{
+  text-align: center;
+  color: #444444;
+  border:black;
+  margin:0;
+}
+.containers h5{
+  text-align: center;
+  color: #777777;
+  margin:0;
+  border:black;
+}
+img.img1{
+  display:block;
+  margin:auto;
+  width: 50%;
+  width:70px;
+  height:70px;
+  margin:30px;
+}
+img.img2{
+  width:250px;
+  height:70px;
+  margin:30px;
+}
 
 /* ---------------------Portafolio---------------------------------*/
 
 #portafolio {
-  
   display: inline-block;
   background-color: #dcdcdc;
 }
 
-
 .img3 {
-        width:300px;
-        height:150px;
-        margin:30px;
-    }
-    .object{
-        float:left;
-        margin:30px;
-    }
+  width:300px;
+  height:150px;
+  margin:30px;
+}
+.object{
+  float:left;
+  margin:30px;
+}
 
-    h2{
-        text-align: center;
-    }
+h2{
+  text-align: center;
+}
 
-    h4{
-        width: 200;
-    }
+h4{
+  width: 200;
+}
 
-    .title{
-        font-size: xx-large;
-    }
+.title{
+  font-size: xx-large;
+}
 
-    .description{
-        margin:50px;
-        padding:10px;
-        clear: both;
-        color:#555555;
-    }
+.description{
+  margin:50px;
+  padding:10px;
+  clear: both;
+  color:#555555;
+}
 
-    .item{
-        float: left;
-    }
+.item{
+  float: left;
+}
 
-    .clear{
-        clear: top;
-    }
-    .title{
-        text-align: center;
-    }
-    .object{
-    }
-    .img4{
-        display: block;
-    margin: auto;
-    width: 40%;
+.clear{
+  clear: top;
+}
+.title{
+  text-align: center;
+}
+.object{
+}
+.img4{
+  display: block;
+  margin: auto;
+  width: 40%;
 
-    }
+}
 
-    img.img5{
-        float:left;
-        margin-left: 60px;
-    width: 40%;
+img.img5{
+  float:left;
+  margin-left: 60px;
+  width: 40%;
 
-    }
+}
 /*---------------------Experience-----------------------------*/
 
 .h1-experience {
-    margin:0;
+  margin:0;
 }
 .timeline,
 .timeline-horizontal {
-    list-style: none;
-    padding:0px;
-    margin: 0px;
-    position:relative;
-    z-index: 0;
+  list-style: none;
+  padding:0px;
+  margin: 0px;
+  position:relative;
+  z-index: 0;
 }
 .timeline:before{
-    top: 20px;
-    bottom :0;
-    position:absolute;
-    content: "";
-    width: 2px;
-    background-color: #eeeeee;
-    left:50%;
-    margin-left: -1.5px;
+  top: 20px;
+  bottom :0;
+  position:absolute;
+  content: "";
+  width: 2px;
+  background-color: #eeeeee;
+  left:50%;
+  margin-left: -1.5px;
 }
 
 .timeline .timeline-item {
-    position:relative;
+  position:relative;
 }
 
 .timeline .timeline-item:after{
-    clear:both;
+  clear:both;
 }
 
 .timeline .timeline-item .timeline-badge {
-    color: #fff;
-    width: 54px;
-    height: 54px;
-    line-height: 2px;
-    font-size: 22px;
-    text-align: center;
-    position:absolute;
-    top:18px;
-    left: 50px;
-    margin-left: -25px;
-    background-color: #7c7c7c;
-    border: 3px solid #ffffff;
-    z-index: 0;
-    border-radius: 50%
+  color: #fff;
+  width: 54px;
+  height: 54px;
+  line-height: 2px;
+  font-size: 22px;
+  text-align: center;
+  position:absolute;
+  top:18px;
+  left: 50px;
+  margin-left: -25px;
+  background-color: #7c7c7c;
+  border: 3px solid #ffffff;
+  z-index: 0;
+  border-radius: 50%
 }
 
 .timeline .timeline-item .timeline-badge i,
 .timeline .timeline-item .timeline-badge .fa,
 .timeline .timeline-item .timeline-badge .glyphicon {
-  top: 2px;
-  left: 0px;
-  z-index: 0;
+top: 2px;
+left: 0px;
+z-index: 0;
 }
 .timeline .timeline-item .timeline-badge.primary {
   background-color: #1f9eba;
@@ -348,9 +350,9 @@ color: black;
 }
 
 .timeline-horizontal:before {
-  height: 3px;
   top: auto;
   bottom: 26px;
+  height: 3px;
   left: 56px;
   right: 0;
   width: 100%;
@@ -425,26 +427,26 @@ color: black;
   text-align: center;
 }
 #contacto h1{
-    text-align: center;
-    color:#fed136;
+  text-align: center;
+  color:#fed136;
 }
 
 #contacto h2{
-    color:#fed136;
-    text-align: center;
+  color:#fed136;
+  text-align: center;
 }
 
 form{
-    margin:auto;
-    width: 50%
+  margin:auto;
+  width: 50%
 }
 input {
-    display:block;
-    margin:10px 10px 10px 120px;
-    width: 350px;
-    background-color: #222222;
-    height: 20px;
-    color:#444444;
+  display:block;
+  margin:10px 10px 10px 120px;
+  width: 350px;
+  background-color: #222222;
+  height: 20px;
+  color:#444444;
 
 }   
 
@@ -458,16 +460,16 @@ input {
   color:#fed136; 
 }
 #submit:hover{
-background-color:#fed136;
-color:#222222;  
+  background-color:#fed136;
+  color:#222222;  
 }
- 
+
 textarea {
-    display:block;
-    margin:25px 10px 0px 120px;
-    width: 350px;
-    background-color: #222222;
-    height: 100px;
+  display:block;
+  margin:25px 10px 0px 120px;
+  width: 350px;
+  background-color: #222222;
+  height: 100px;
 }  
 
 /* ---------------------General---------------------------------*/
@@ -478,7 +480,7 @@ section {
 .containers {
   width: 85%;
   margin:auto;
-  
+
 }
 
 /* ------------------Portafolio----------------------------------*/
