@@ -9,6 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; 
   line-height: 1;
+  background-color:red;
 }
 
 h1,
@@ -31,8 +32,9 @@ h4{
 @media (max-width: 1200px) {
   body {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px; 
+    font-size: 8px; 
     line-height: 1;
+    background-color:red;
   }
   .home-wrapper{
   background-attachment: fixed;
@@ -50,7 +52,7 @@ header nav {
   width: 100%; /* Full width */
 }
 .navbar.navbar-inverse{
-  
+  position:fixed;
 }
 header nav a{
   float: right;
@@ -105,7 +107,7 @@ header nav a.active {
   text-align: center;
   margin-left: 0px;
   position:relative ;
-  top: 175px;
+  top: 185px;
 }
 
 /*----------------------Skills----------------------------------*/
@@ -117,7 +119,6 @@ header nav a.active {
   margin:auto;
   clear: both;
   padding:20px;
-  border: solid black 2px;
 }
 .item1.radius img,
 .item2.radius img,
@@ -151,7 +152,6 @@ header nav a.active {
     margin:auto;
     clear: both;
     padding:20px;
-    border: solid black 2px;
   }
   .item1.radius img,
   .item2.radius img,
@@ -175,41 +175,22 @@ header nav a.active {
     margin-right: 0px;
     margin-left: 0px;
   }
+  img.img1{
+    display:block;
+    margin:auto;
+    width: 50%;
+    width:35px;
+    height:35px;
+    margin:30px;
+  }
+  img.img2{
+    width:120px;
+    height:35px;
+    margin:30px;
+  }
+
 }
 /* mobile */
-@media (max-width: 1200px) {
-  .skill{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin:auto;
-    clear: both;
-    padding:20px;
-    border: solid black 2px;
-  }
-  .item1.radius img,
-  .item2.radius img,
-  .item3.radius img{
-    border-radius: 50%
-  }
-  .item1{
-    border:blue;
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-  .item2{
-    border:blue;
-    margin-right: 30px;
-    margin-left: 30px;
-    border:blue;
-
-  }
-  .item3{
-    padding:0px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-}
 /* General css rules */
 
 .skill h1 {
@@ -252,7 +233,15 @@ img.img2{
 .portafolio_grid{
   display:flex;
   flex-wrap: wrap;
-  justify-content:center;
+ 
+}
+
+@media (max-width: 1200px) {
+  .portafolio_grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .img3 {
@@ -519,11 +508,21 @@ z-index: 0;
   text-align: center;
 }
 
+.frorm-flex{
+  margin-left: 150px;
+}
+
+@media (max-width: 1200px) {
+  .frorm-flex{
+    margin-left: 0px;
+  }
+}
 form{
   margin:auto;
   width: 50%;
   
 }
+
 
 input {
   display:flex;
@@ -532,7 +531,7 @@ input {
   background-color: #222222;
   height: 20px;
   color:#444444;
-  justify-content:left;
+  justify-content:center;
   flex-direction:column;
   flex-wrap:wrap;
 
