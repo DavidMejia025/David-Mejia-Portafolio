@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 18px; 
   line-height: 1;
 }
 
@@ -16,13 +16,32 @@ h2 {
   text-align: center;
   color: #222222
 }
+h4{
+  width: 200;
+}
 
 .home-wrapper{
   background-attachment: fixed;
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('../images/road2.jpeg') no-repeat center top;
   background-size: cover;
   color:white;
+  height:720px;
 }
+/* tablets */
+@media (max-width: 1200px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px; 
+    line-height: 1;
+  }
+  .home-wrapper{
+  background-attachment: fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('../images/road2.jpeg') no-repeat center top;
+  color:white;
+  height:920px;
+}
+}
+
 
 header nav {
   background-color: #222222;
@@ -87,43 +106,108 @@ header nav a.active {
 }
 
 /*----------------------Skills----------------------------------*/
+/* Large screen */
 .skill{
+  display: flex;
+  
   width: 100%;
   margin:auto;
   clear: both;
   padding:20px;
+  border: solid black 2px;
 }
-
+.item1.radius img,
+.item2.radius img,
+.item3.radius img{
+  border-radius: 50%
+}
 .item1{
   border:blue;
-  margin-right: 25px;
-  margin-left: 25px;
-  float: left;
-
-}
-.item1 img,
-.item2 img,
-.item3 img{
-  border-radius: 50%
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .item2{
   border:blue;
   margin-right: 30px;
   margin-left: 30px;
-  float: left;
   border:blue;
-  padding:10px;
 
 }
 .item3{
-  border:blue;
-  padding:20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  float: left;
-  border:blue;
-
+  padding:0px;
+  margin-right: 35px;
+  margin-left: 35px;
 }
+/* Tablets */
+@media (max-width: 1200px) {
+  .skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    margin:auto;
+    clear: both;
+    padding:20px;
+    border: solid black 2px;
+  }
+  .item1.radius img,
+  .item2.radius img,
+  .item3.radius img{
+    border-radius: 50%
+  }
+  .item1{
+    border:blue;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .item2{
+    border:blue;
+    margin-right: 30px;
+    margin-left: 30px;
+    border:blue;
+
+  }
+  .item3{
+    padding:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+/* mobile */
+@media (max-width: 1200px) {
+  .skill{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:auto;
+    clear: both;
+    padding:20px;
+    border: solid black 2px;
+  }
+  .item1.radius img,
+  .item2.radius img,
+  .item3.radius img{
+    border-radius: 50%
+  }
+  .item1{
+    border:blue;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .item2{
+    border:blue;
+    margin-right: 30px;
+    margin-left: 30px;
+    border:blue;
+
+  }
+  .item3{
+    padding:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+/* General css rules */
 
 .skill h1 {
   margin:30px;;
@@ -134,7 +218,6 @@ header nav a.active {
   text-align: center;
   color: #444444;
   border:black;
-  margin:0;
 }
 .containers h5{
   text-align: center;
@@ -156,11 +239,17 @@ img.img2{
   margin:30px;
 }
 
+
 /* ---------------------Portafolio---------------------------------*/
 
 #portafolio {
   display: inline-block;
   background-color: #dcdcdc;
+}
+.portafolio_grid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
 }
 
 .img3 {
@@ -172,15 +261,6 @@ img.img2{
   float:left;
   margin:30px;
 }
-
-h2{
-  text-align: center;
-}
-
-h4{
-  width: 200;
-}
-
 .title{
   font-size: xx-large;
 }
@@ -438,26 +518,32 @@ z-index: 0;
 
 form{
   margin:auto;
-  width: 50%
+  width: 50%;
+  
 }
+
 input {
-  display:block;
-  margin:10px 10px 10px 120px;
+  display:flex;
+  margin:10px 10px 10px 10px;
   width: 350px;
   background-color: #222222;
   height: 20px;
   color:#444444;
+  justify-content:left;
+  flex-direction:column;
+  flex-wrap:wrap;
 
 }   
 
 #submit{
-  margin-left: 370px;
+  margin-left: 250px;
   margin-top:0;
   width:100px;
   border-radius: 3px;
   padding:15px;
   text-align: center;
   color:#fed136; 
+  font-size:12px;
 }
 #submit:hover{
   background-color:#fed136;
@@ -466,7 +552,7 @@ input {
 
 textarea {
   display:block;
-  margin:25px 10px 0px 120px;
+  margin:30px 10px 0px 10px;
   width: 350px;
   background-color: #222222;
   height: 100px;

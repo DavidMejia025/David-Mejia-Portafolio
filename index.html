@@ -1,30 +1,74 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 	<title>David_Mejia</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Jquery -->
+    <script
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 
-    <script src="./js/app.js"></script>
+    <script src="./js/app.js"></script>  
 
 </head>
 <body>
     <div class="home-wrapper">
     	<header>
-                <nav>
-                    <div class="container">
-                            <a href="#contacto">CONTACT</a>
-                            <a href="#experiencia">Experience/Bio</a>
-                            <a href="#portafolio">PORTAFOLIO</a>
-                            <a href="#skills">SKILLS</a>
-                            <a href="#home" class= "active">HOME</a>
+                <nav class="navbar">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>                        
+                         </button>
+                         <a class="navbar-brand" href="#">WebSiteName</a>
+                       </div>
+                    <div class="collapse nav-bar-collapse" id="nav-bar">
+                        
+                            <div class="container">
+                                    <a href="#contacto">CONTACT</a>
+                                    <a href="#experiencia">Experience/Bio</a>
+                                    <a href="#portafolio">PORTAFOLIO</a>
+                                    <a href="#skills">SKILLS</a>
+                                    <a href="#home" class= "active">HOME</a>
+                            </div>
+
                     </div>
+                </nav>
+
+                <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                               
+                      </button>
+                      <a class="navbar-brand" href="#">WebSiteName</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </nav>
         </header> 
         <section id="home">
@@ -39,8 +83,8 @@
 
     <section id="skills">
             <div class="containers">
+                <h1>FRONTEND SKILLS</h1>
                 <div class="skill">
-                    <h1>FRONTEND SKILLS</h1>
                         <div class="item1">
                             <img src="images/skills/html5.png" alt="html" class="img1">
                             <h3> HTML5 </h3>
@@ -49,7 +93,7 @@
                             <img src="images/skills/css3.png" alt="html" class="img1">
                             <h3>CSS3</h3>
                         </div>
-                        <div class="item1">
+                        <div class="item1 radius">
                             <img src="images/skills/bootstrap.png" alt="html" class="img1">
                             <h3> Boostrap</h3>
                         </div>
@@ -57,20 +101,20 @@
                             <img src="images/skills/js.png" alt="html" class="img1">
                             <h3>JavaScript</h3>
                         </div>
-                        <div class="item1">
+                        <div class="item1 radius">
                             <img src="images/skills/jquery.png" alt="html" class="img2">
                             <h3>Jquery & ajax </h3>
                         </div>
                 </div>
 
+                <h1>BACKEND SKILLS</h1>
                 <div class="skill">
-                    <h1>BACKEND SKILLS</h1>
-                       <div class="item2">
+                       <div class="item2 radius">
                             <img src="images/skills/ruby.png" alt="html" class="img1">
                             <h3>Ruby</h3>
                             <h5>Programing lenguage</h5>
                         </div>
-                        <div class="item2">
+                        <div class="item2 ">
                             <img src="images/skills/mysql.png" alt="html" class="img1">
                             <h3>MySQL</h3>
                             <h5>Database manager</h5>
@@ -81,13 +125,13 @@
                             <h5>Open source Database </h5>
                             <h5> manager</h5>
                         </div>
-                        <div class="item2">
+                        <div class="item2 radius">
                             <img src="images/skills/sinatra.jpg" alt="html" class="img1">
                             <h3>Sinatra</h3>
                             <h5>Open source ruby </h5>
                             <h5>based framework</h5>
                         </div>
-                        <div class="item2">
+                        <div class="item2 radius">
                             <img src="images/skills/rails.png" alt="html" class="img1">
                             <h3>Rails</h3>
                             <h5>Agile webdevelopment </h5>
@@ -95,9 +139,9 @@
                         </div>
                 </div>
                 
+                <h1>ENGINEERING SKILLS</h1>
                 <div class="skill">
-                        <h1>ENGINEERING SKILLS</h1>
-                        <div class="item3">
+                        <div class="item3 radius">
                             <img src="images/skills/matlab.jpg" alt="html" class="img1">
                             <h3>Matlab</h3>
                         </div>
@@ -105,7 +149,7 @@
                             <img src="images/skills/labview.png" alt="html" class="img1">
                             <h3>Labview</h3>
                         </div>
-                        <div class="item3">
+                        <div class="item3 radius">
                             <img src="images/skills/c++.png" alt="html" class="img1">
                             <h3>C++</h3>
                             <h5>Programing lenguage</h5>
@@ -128,36 +172,37 @@
     <section id="portafolio">
         <div class="containers">
             <h1>PORTAFOLIO:</h1>
-                <div class= "item">
-                    <h2> SuperFlow:</h2>
-                    <a href="./portfolio.html#super_flow" target="_blank"><img class="img3" src="./images/portafolio/superstack.png" alt=""></a>
-                </div>
-                
-                <div class= "item">
-                    <h2> Pequeños proyectos:</h2>
-                    <a href="./portfolio.html#p_proyectos" target="_blank"><img class="img3" src="./images/portafolio/picas_fijas.png" alt=""></a>
-                </div>
+                <div class="portafolio_grid">
+                    <div class= "item">
+                        <h2> SuperFlow:</h2>
+                        <a href="./portfolio.html#super_flow" target="_blank"><img class="img3" src="./images/portafolio/superstack.png" alt=""></a>
+                    </div>
+                    
+                    <div class= "item">
+                        <h2> Pequeños proyectos:</h2>
+                        <a href="./portfolio.html#p_proyectos" target="_blank"><img class="img3" src="./images/portafolio/picas_fijas.png" alt=""></a>
+                    </div>
 
-                <div class= "item">
-                    <h2> Portafolio:</h2>
-                    <a href="./portfolio.html#portafolio" target="_blank"><img class="img3" src="./images/portafolio/portfolio.png" alt=""></a>
-                </div>
+                    <div class= "item">
+                        <h2> Portafolio:</h2>
+                        <a href="./portfolio.html#portafolio" target="_blank"><img class="img3" src="./images/portafolio/portfolio.png" alt=""></a>
+                    </div>
 
-                <div class= "item">
-                    <h2> Reto-E:</h2>
-                    <a href="./portfolio.html#reto-e" target="_blank"><img class="img3" src="./images/portafolio/reto_E.png" alt="">
-                </div>
+                    <div class= "item">
+                        <h2> Reto-E:</h2>
+                        <a href="./portfolio.html#reto-e" target="_blank"><img class="img3" src="./images/portafolio/reto_E.png" alt=""></a>
+                    </div>
 
-                <div class= "item">
-                    <h2> SmartCity scalled model:</h2>
-                    <a href="./portfolio.html#SC" target="_blank"><img class="img3" src="./images/portafolio/p1.jpg" alt="">
-                </div>
+                    <div class= "item">
+                        <h2> SmartCity scalled model:</h2>
+                        <a href="./portfolio.html#SC" target="_blank"><img class="img3" src="./images/portafolio/p1.jpg" alt=""></a>
+                    </div>
 
-                <div class= "item">
-                    <h2> Microgrid Laboratory test bed:</h2>
-                    <a href="./portfolio.html#mg"  target="_blank"><img class="img3" src="./images/portafolio/mg1.jpg" alt="">
-                </div>
-
+                    <div class= "item">
+                        <h2> Microgrid Laboratory test bed:</h2>
+                        <a href="./portfolio.html#mg"  target="_blank"><img class="img3" src="./images/portafolio/mg1.jpg" alt=""></a>
+                    </div>
+                </div>                
         <div class:clear></div>
        </div>
     </section>
@@ -237,7 +282,7 @@
                         </li>
 
                         <li class="timeline-item">
-                            <a href="#ingeniero-electronico"><div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div></a>
+                            <a href="#ingeniero-electronico" class="ingeniero-electronico"><div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div></a>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Ingeníero electrónico 
@@ -268,14 +313,18 @@
         <div class="containers">
             <h1>¿Tienes una pregunta o deseas que trabajemos juntos?</h1>
             <h1>CONTACTAME!</h1>
-            <form action="/index">
-                <div><input type="text" placeholder="Nombre"></div>
-                <div><input type="text" placeholder="Email"></div>
-                <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-                <input type="submit" id="submit" value="ENVIAR">
-            </form>
+            <div class="frorm-flex">
+                <form action="/index">
+                    <div><input type="text" placeholder="Nombre"></div>
+                    <div><input type="text" placeholder="Email"></div>
+                    <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
+                    <input type="submit" id="submit" value="ENVIAR">
+                </form>
+            </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8595528241945!2d-74.06993528543964!3d4.619133743646075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9985a827ba2b%3A0xf129ab52ba6b7e47!2sSan+Mart%C3%ADn+Centro+Comercial!5e0!3m2!1ses-419!2sco!4v1515164159740" width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div> 
     </section>
 </body>
 </html>
+
+
