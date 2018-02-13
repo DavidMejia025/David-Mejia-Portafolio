@@ -23,7 +23,7 @@ h4{
 /* Responsive pc screen ------------------------------------------------------------------------------------------------------*/
   .home-wrapper{
     background-attachment: fixed;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) ,  url('../images/road2.jpeg') no-repeat center top;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ) ,  url('../images/road2.jpeg') no-repeat center top;
     background-size: cover;
     color:white;
     height:720px;
@@ -97,7 +97,7 @@ h4{
     top: 185px;
     left:140px;
   }
-  .glyphicon{
+  .intro.glyphicon{
     font-size: 40px;
   }
 
@@ -190,6 +190,62 @@ h4{
   }
 }
 
+.item{
+  position: relative;
+}
+.boxfolio{
+  display: none;
+}
+.item h2.one{
+  position: absolute;
+  top: 30%;
+  left:30%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.4);
+}
+.item h2.two {
+  position: absolute;
+  top: 30%;
+  left:17%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.4);
+}
+.item h2.three{
+  position: absolute;
+  top: 30%;
+  left:35%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.4);
+}
+.item h2.four{
+  position: absolute;
+  top: 30%;
+  left:40%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.4);
+}
+.item h3.five{
+  position: absolute;
+  top: 30%;
+  left:30%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.8);
+}
+.item h3.six{ 
+  position: absolute;
+  top: 30%;
+  left:30%;
+  padding: 5px;
+  background-color:rgba(255,225,40,0.4);
+}
+.item span{
+  position: absolute;
+  padding: 5px;
+  top: 70%;
+  left:35%;
+  background-color:rgba(255,225,40,0.4);
+
+}
 .img3 {
   width:300px;
   height:150px;

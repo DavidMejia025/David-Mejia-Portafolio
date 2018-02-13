@@ -39,7 +39,6 @@ $( document ).ready(function() {
 	//Skills item appear disappear section.
     $( ".item1" ).hover(
   function() {
-  	console.log(this)
     $(this).children("h5").css("color","#777777");
   }, function() {
     $(".item1 h5").css("color","white");
@@ -47,7 +46,6 @@ $( document ).ready(function() {
 	);
 	 $( ".item2" ).hover(
   function() {
-  	console.log(this)
     $(this).children("h5").css("color","#777777");
   }, function() {
     $(".item2 h5").css("color","white");
@@ -55,10 +53,21 @@ $( document ).ready(function() {
 	);
 	  $( ".item3" ).hover(
   function() {
-  	console.log(this)
     $(this).children("h5").css("color","#777777");
   }, function() {
     $(".item3 h5").css("color","white");
   		}
 	);
+
+	/* Portafolio */
+	$( ".item" ).hover(function() {
+  	console.log(this)
+    $(this).children(".boxfolio").show();
+    },
+    function() {
+    $(this).children(".boxfolio").hide();;
+  	}
+  	);
+	
+
 });
