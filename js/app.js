@@ -63,6 +63,8 @@ $( document ).ready(function() {
 	$( ".item" ).hover(function() {
   	console.log(this)
     $(this).children(".boxfolio").show();
+    $(this).children("img").css("opacity","0.5");
+
     },
     function() {
     $(this).children(".boxfolio").hide();;
