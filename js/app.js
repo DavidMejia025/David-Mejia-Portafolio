@@ -7,8 +7,12 @@ $( document ).ready(function() {
 		$(this).addClass('active');
 	})
 
-	$(".timeline-item a").on("click",function(e){
-		var destiny = $(this).attr("href");
+	$(".exp-list li").on("click",function(e){
+		var destiny = $(this).attr("class");
+		$(".exp-list li").each(function(){
+			$(".timeline-panel").removeClass('active')
+		})
+		$(this).children(".timeline-panel").addClass('active')
 		$(".tabs-content > div").each(function(){
 			$(this).removeClass('active')
 			$(`.tabs-content ${destiny}`).addClass('active')
@@ -63,11 +67,12 @@ $( document ).ready(function() {
 	$( ".item" ).hover(function() {
   	console.log(this)
     $(this).children(".boxfolio").show();
-    $(this).children("img").css("opacity","0.5");
+    $(this).children("img").css("opacity","0.2");
 
     },
     function() {
-    $(this).children(".boxfolio").hide();;
+    $(this).children(".boxfolio").hide();
+    $(this).children("img").css("opacity","1");
   	}
   	);
 	
