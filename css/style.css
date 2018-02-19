@@ -164,7 +164,7 @@ h4{
 }
 .skill h3{
   text-align: center;
-  color: #444444;
+  color: #202020;
   border:black;
 }
 .skill h5{
@@ -343,6 +343,7 @@ img.img5{
 .exp-list li .timeline-panel.active{
   background-color: #444444;
   color:yellow;
+  margin:0;
 }
 .exp-container{
   display: flex; 
@@ -387,6 +388,31 @@ width:650px;
 }
 
 /*---------------------Contacto--------------------------------*/
+.top {
+  border:solid 1px;
+  padding:20px;
+}
+#container{
+  display:flex;
+  justify-content: space-around;
+  border:solid black 1px;
+  margin: 30px;
+  padding:10px;
+  color:#fed136;
+
+}
+#container > div{
+
+  padding:80px;
+}
+.center{
+  border-right:solid 3px ;
+}
+.contactos .list{
+  margin-top:50px;
+ color:#777777;
+ font-size:14px;
+}
 
 #contacto {
   background-color: #222222;
@@ -404,26 +430,18 @@ width:650px;
   text-align: center;
 }
 
-.frorm-flex{
-  margin-left: 150px;
-}
-
-@media (max-width: 1200px) {
-  .frorm-flex{
-    margin-left: 0px;
-  }
-}
 form{
   margin:auto;
   width: 50%;
+  margin-top: 50px;
   
 }
 
 
 input {
   display:flex;
-  margin:10px 10px 10px 10px;
-  width: 350px;
+  margin:10px 10px 10px 40px;
+  width: 200px;
   background-color: #222222;
   height: 20px;
   color:#444444;
@@ -451,7 +469,7 @@ input {
 textarea {
   display:block;
   margin:30px 10px 0px 10px;
-  width: 350px;
+  width: 300px;
   background-color: #222222;
   height: 100px;
 }  
