@@ -88,6 +88,20 @@ h4{
     font-size:46px;
   }
 
+  .name span{
+    position:absolute;
+    top:130px;
+    left:180px;
+    font-size:28px
+  }
+  .name a{
+    background-color:yellow;
+    color:yellow;
+  }
+#cv{
+  margin-top:20px;
+}
+
   #home .button{
     font-size:16px;
     font-weight: bold; 
