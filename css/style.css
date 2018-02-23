@@ -338,11 +338,11 @@ img.img5{
   font-size: 14px;
   list-style: none;
   padding: 10px 0 10px 40px;
-  position: relative; 
+  position: relative;
+  color:#999999; 
 }
 .exp-list li .timeline-panel.active{
-  background-color: #444444;
-  color:yellow;
+  color:#222222;
   margin:0;
 }
 .exp-container{
@@ -395,7 +395,6 @@ width:650px;
 #container{
   display:flex;
   justify-content: space-around;
-  border:solid black 1px;
   margin: 30px;
   padding:10px;
   color:#fed136;
@@ -432,7 +431,7 @@ width:650px;
 
 form{
   margin:auto;
-  width: 50%;
+  width: 70%;
   margin-top: 50px;
   
 }
@@ -440,26 +439,34 @@ form{
 
 input {
   display:flex;
-  margin:10px 10px 10px 40px;
-  width: 200px;
+  padding:10px;
+  width: 300px;
   background-color: #222222;
-  height: 20px;
+  height: 40px;
   color:#444444;
   justify-content:center;
   flex-direction:column;
   flex-wrap:wrap;
+  border-radius: 7px
 
 }   
+textarea{
+  padding:10px;
+  border-radius: 10px;
+  margin-top:20px;
 
+
+}
 #submit{
-  margin-left: 250px;
-  margin-top:0;
+  margin-left: 100px;
+  margin-top:50;
   width:100px;
   border-radius: 3px;
   padding:15px;
   text-align: center;
   color:#fed136; 
   font-size:12px;
+  border-radius: 7px;
 }
 #submit:hover{
   background-color:#fed136;

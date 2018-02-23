@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -499,7 +500,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>
-                                    Bootcamp: Make it Real</p>
+                                    <a href="https://www.makeitreal.camp">Make it real</a> Bootcamp</p>
                                 </div>
                             </div>
                         </li>
@@ -572,7 +573,7 @@
                     </ul>
                     <!-- -a-a-a-a-a-a-a-a-a-a-a-a-a-a-a -->
                     <div class="tabs-content">
-                        <div id="makeit" class="active">Bootcamp en desarrollo web full stack.</div>
+                        <div id="makeit" class="active">Bootcamp en desarrollo web full stack. <</div>
                         <div id="building-care" > Emprendimiento de empresa dedicada a la integración de sensores para edificios</div>
                         <div id="clases">Profesor del curso Circuitos Digitales para estudiantes de Ing de sistemas de la universidad libre</div>
                         <div id="reto-e">Proyecto SiEM (Smart industry energy management): Participación en el concurso de innovacion de Codensa en el cual quedamos en 5 lugar entre 71 equipos participantes a nivel nacional</div>
@@ -595,10 +596,12 @@
           <div class="contactos">
             <h3>Datos de contacto:</h3>
             <div class=list>
-              <p><span class="halflings halflings-globe">Hola</span> Lugar: Bogota-Colombia</p>
-              <p><span class="social social-gmail">Hola</span> Email: david.mejia@me.com</p>
-              <p><span class="glyphicons glyphicons-phone-alt">Hola</span>Telefono: 57 322 8778066</p>
-              <p><span class="social social-github">Hola</span> Github: https://github.com/DavidMejia025 </p>
+              <p><i class="fa fa-github" style="font-size:20px"></i> https://github.com/DavidMejia025 </p>
+              <p><span class="glyphicon glyphicon-envelope"></span> davidndy@gmail.com</p>
+              <p><span class="glyphicon glyphicon-earphone"></span></i> 57 322 8778066</p>
+               <p><span class="glyphicon glyphicon-globe"></span></i> Bogota-Colombia</p>
+              
+              
             </div>
           </div>
           <div class="redes">
@@ -612,11 +615,12 @@
         <div class="right-side">
           <h3>¿Tienes una pregunta o deseas que trabajemos juntos?</h3>
           <div class="frorm-flex">
-              <form action="/index">
-                  <div><input type="text" placeholder="Nombre"></div>
-                  <div><input type="text" placeholder="Email"></div>
-                  <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-                  <input type="submit" id="submit" value="ENVIAR">
+              <form action="https://getsimpleform.com/messages?form_api_token=8012359994418be5ff5bc1531bbbffba" method="post" class="form-group">
+                  <input type='hidden' name='redirect_to' value='http://fooey.com/thank-you.html' />
+                  <div><input type="text" placeholder="Nombre" class=""></div>
+                  <div><input type="text" placeholder="Email" class=""></div>
+                  <div><textarea rows="6" placeholder="Tu mensaje" class=""></textarea></div>
+                  <input type="submit" id="submit" class="" value="ENVIAR">
               </form>
           </div>
         </div>
