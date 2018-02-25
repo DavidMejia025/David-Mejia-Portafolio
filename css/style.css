@@ -642,6 +642,7 @@ h4{
 
     #skills{
       margin-top: 0px;
+      margin-bottom: 60px;
 
     }
     .containers {
@@ -652,7 +653,7 @@ h4{
       font-size: 42px;
     }
     .skillBox{
-      margin-top: 1pc;
+      margin-top: 60px;
 
       margin-left: -80px;
     }
@@ -735,7 +736,7 @@ h4{
   .portafolio_grid{
     display:flex;
     flex-wrap: wrap;
-    margin-top: 120px;
+    margin-bottom: 100px;
 
    
   }
@@ -903,6 +904,7 @@ h4{
     margin-top:100px;
     border:solid 1px;
     margin-left:10pc;
+    margin-bottom:30px;
   }
   .exp-list {
     margin-top:30px;
@@ -1065,7 +1067,7 @@ h4{
         background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ) ,  url('../images/road2.jpeg') no-repeat center top;
         background-size: cover;
         color:white;
-        height:720px;
+        height:1050px;
       }
       .navbar.navbar-inverse{
         position:fixed;
@@ -1116,21 +1118,26 @@ h4{
         border-color: red;
         border-width: 5px;
         position: relative;
-        top: 200px;
-        left:155px;
+        top: 500px;
+        left:205px;
       }
 
 
       .name h1{
         text-align: left;
         color: rgb(215,215,215);
-        font-size:46px;
+        font-size:70px;
+      }
+      .name h3{
+        text-align: left;
+        color: rgb(215,215,215);
+        font-size:22px;
       }
 
       .name span{
         position:absolute;
-        top:130px;
-        left:180px;
+        top:165px;
+        left:220px;
         font-size:28px
       }
       .name a{
@@ -1147,12 +1154,12 @@ h4{
         text-decoration:none;
         background-color: #fed136;
         color: rgb(45,45,45);
-        padding: 35px 10px 10px 10px;
+        padding: 50px 30px 30px 30px;
         border-radius:50px;    
         text-align: center;
         margin-left: 0px;
         position:relative ;
-        top: 245px;
+        top: 545px;
         left:290px;
       }
       .intro.glyphicon{
@@ -1164,7 +1171,9 @@ h4{
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
       
-      
+      .skillBox{
+        margin-top:100px;
+      }
       .skill{
         display: flex;
         flex-wrap: wrap;
@@ -1173,6 +1182,7 @@ h4{
         margin:auto;
         clear: both;
         padding:20px;
+        margin-bottom:100px;
       }
       .item1.radius img,
       .item2.radius img,
@@ -1199,13 +1209,13 @@ h4{
       img.img1{
         display:block;
         margin:auto;
-        width:65px;
-        height:65px;
+        width:90px;
+        height:90px;
         margin:20px;
       }
       img.img2{
-        width:120px;
-        height:45px;
+        width:140px;
+        height:75px;
         margin:30px;
       }
     /* General css rules */
@@ -1337,8 +1347,8 @@ h4{
     }
 
     .img3 {
-      width:300px;
-      height:150px;
+      width:380px;
+      height:250px;
       margin:30px;
     }
     .img3:hover {
@@ -1407,6 +1417,7 @@ h4{
       flex-direction: row ;
       flex-wrap: wrap;
       justify-content: space-around;
+      margin-left: 250px;
     }
     .exp-list {
       margin-top:30px;
@@ -1571,7 +1582,7 @@ h4{
         background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ) ,  url('../images/road2.jpeg') no-repeat center top;
         background-size: cover;
         color:white;
-        height:720px;
+        height:1080px;
       }
       .navbar.navbar-inverse{
         position:fixed;
@@ -1622,8 +1633,8 @@ h4{
         border-color: red;
         border-width: 5px;
         position: relative;
-        top: 200px;
-        left:155px;
+        top: 550px;
+        left: 305px;
       }
 
 
@@ -1635,8 +1646,8 @@ h4{
 
       .name span{
         position:absolute;
-        top:130px;
-        left:180px;
+        top:140px;
+        left:220px;
         font-size:28px
       }
       .name a{
@@ -1653,13 +1664,13 @@ h4{
         text-decoration:none;
         background-color: #fed136;
         color: rgb(45,45,45);
-        padding: 35px 10px 10px 10px;
+        padding: 55px 30px 30px 30px;
         border-radius:50px;    
         text-align: center;
         margin-left: 0px;
         position:relative ;
-        top: 245px;
-        left:290px;
+        top: 645px;
+        left:490px;
       }
       .intro.glyphicon{
         font-size: 40px;
@@ -1679,6 +1690,7 @@ h4{
         margin:auto;
         clear: both;
         padding:20px;
+        margin-bottom:50px;
       }
       .item1.radius img,
       .item2.radius img,
@@ -1705,13 +1717,13 @@ h4{
       img.img1{
         display:block;
         margin:auto;
-        width:65px;
-        height:65px;
+        width:105px;
+        height:105px;
         margin:20px;
       }
       img.img2{
-        width:120px;
-        height:45px;
+        width:150px;
+        height:75px;
         margin:30px;
       }
     /* General css rules */
@@ -1743,7 +1755,7 @@ h4{
     .portafolio_grid{
       display:flex;
       flex-wrap: wrap;
-     
+     margin-bottom:150px;
     }
 
     .item{
@@ -1843,8 +1855,8 @@ h4{
     }
 
     .img3 {
-      width:300px;
-      height:150px;
+      width:400px;
+      height:200px;
       margin:30px;
     }
     .img3:hover {
@@ -1993,7 +2005,7 @@ h4{
     }
     #contacto p{
     text-align: center;
-    font-size: 18px
+    font-size: 22px
   }
     form{
       margin:auto;
