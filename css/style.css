@@ -25,6 +25,7 @@ h4{
 .carousel-item{
   margin: 30px 0px 30px 0px;
 }
+
 @media only screen and (min-width:800px){
   /* 480*/
       .home-wrapper{
@@ -132,10 +133,51 @@ h4{
       }
 
 
+/*-----------------------Perfil -----------------------------------*/
 
+.container_perfil{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  flex-direction: row;
+}
+#perfil{
+  background-color:#222222; 
+  padding-bottom:300px;
+}
+ #perfil p{
+  color: #dddddd;
+}
+#perfil .titles{
+  color:#fed136;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+#perfil .profile_pic{
+  width:300px;
+  border-radius: 10%
+}
+.perfil_info{
+  margin:-20px 100px 0px 0px;
+  line-height: 2.2;
+  font-size:11px;
+}
+.perfi_info p{
+  margin:30px
+}
+.image{
+  margin: 70px 0px 200px 150px;
+}
+.perfil_info{
+  text-align: justify;
+  width:400px;
+}
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
-      
+      #skills{
+       background-color:#eeeeee; 
+      }
+
       
       .skill{
 
@@ -646,8 +688,44 @@ h4{
       .intro.glyphicon{
         font-size: 40px;
       }
-
-
+/* --------------------Perfil------------*/
+      .container_perfil{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        flex-direction: row;
+      }
+      #perfil{
+        background-color:#222222; 
+        padding-bottom:300px;
+      }
+       #perfil p{
+        color: #dddddd;
+      }
+      #perfil .titles{
+        color:#fed136;
+        margin-top:30px;
+        margin-bottom:30px;
+      }
+      #perfil .profile_pic{
+        width: 270px;
+        border-radius: 10%
+      }
+      .perfil_info{
+        margin:-20px 100px 0px 0px;
+        line-height: 2.2;
+        font-size:11px;
+      }
+      .perfi_info p{
+        margin:30px
+      }
+      .image{
+        margin: 70px 0px 200px 150px;
+      }
+      .perfil_info{
+        text-align: justify;
+        width:400px;
+      }
 
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
@@ -1160,6 +1238,44 @@ h4{
       }
 
 
+      /* --------------------Perfil------------*/
+            .container_perfil{
+              display:flex;
+              flex-wrap: wrap;
+              justify-content:space-between;
+              flex-direction: row;
+            }
+            #perfil{
+              background-color:#222222; 
+              padding-bottom:300px;
+            }
+             #perfil p{
+              color: #dddddd;
+            }
+            #perfil .titles{
+              color:#fed136;
+              margin-top:30px;
+              margin-bottom:30px;
+            }
+            #perfil .profile_pic{
+              width: 400px;
+              border-radius: 10%
+            }
+            .perfil_info{
+              margin:-20px 100px 0px 0px;
+              line-height: 2.2;
+              font-size:11px;
+            }
+            .perfi_info p{
+              margin:30px
+            }
+            .image{
+              margin: 70px 0px 200px 150px;
+            }
+            .perfil_info{
+              text-align: justify;
+              width:500px;
+            }
 
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
@@ -1671,7 +1787,44 @@ h4{
     }
 
 
-
+    /* --------------------Perfil------------*/
+          .container_perfil{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-between;
+            flex-direction: row;
+          }
+          #perfil{
+            background-color:#222222; 
+            padding-bottom:300px;
+          }
+           #perfil p{
+            color: #dddddd;
+          }
+          #perfil .titles{
+            color:#fed136;
+            margin-top:30px;
+            margin-bottom:30px;
+          }
+          #perfil .profile_pic{
+            width: 400px;
+            border-radius: 10%
+          }
+          .perfil_info{
+            margin:-20px 100px 0px 0px;
+            line-height: 2.2;
+            font-size:11px;
+          }
+          .perfi_info p{
+            margin:30px
+          }
+          .image{
+            margin: 70px 0px 200px 150px;
+          }
+          .perfil_info{
+            text-align: justify;
+            width:500px;
+          }
   /*----------------------Skills----------------------------------*/
   /* laptop screen */
     
@@ -2203,7 +2356,44 @@ h4{
       }
 
 
-
+      /* --------------------Perfil------------*/
+            .container_perfil{
+              display:flex;
+              flex-wrap: wrap;
+              justify-content:space-between;
+              flex-direction: row;
+            }
+            #perfil{
+              background-color:#222222; 
+              padding-bottom:300px;
+            }
+             #perfil p{
+              color: #dddddd;
+            }
+            #perfil .titles{
+              color:#fed136;
+              margin-top:30px;
+              margin-bottom:30px;
+            }
+            #perfil .profile_pic{
+              width: 400px;
+              border-radius: 10%
+            }
+            .perfil_info{
+              margin:-20px 300px 0px 0px;
+              line-height: 2.2;
+              font-size:11px;
+            }
+            .perfi_info p{
+              margin:30px
+            }
+            .image{
+              margin: 70px 0px 200px 300px;
+            }
+            .perfil_info{
+              text-align: justify;
+              width:500px;
+            }
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
       
@@ -2711,7 +2901,46 @@ h4{
       .intro.glyphicon{
         font-size: 40px;
       }
-
+      /* --------------------Perfil------------*/
+                        .container_perfil{
+                          display:flex;
+                          flex-wrap: wrap;
+                          justify-content:space-between;
+                          flex-direction: row;
+                          margin-top:50px;
+                          margin-bottom:200px;
+                        }
+                        #perfil{
+                          background-color:#222222; 
+                          padding-bottom:300px;
+                        }
+                         #perfil p{
+                          color: #dddddd;
+                        }
+                        #perfil .titles{
+                          color:#fed136;
+                          margin-top:30px;
+                          margin-bottom:30px;
+                        }
+                        #perfil .profile_pic{
+                          width: 500px;
+                          border-radius: 10%
+                        }
+                        .perfil_info{
+                          margin:-20px 300px 0px 0px;
+                          line-height: 2.5;
+                          font-size:12px;
+                        }
+                        .perfi_info p{
+                          margin:30px
+                        }
+                        .image{
+                          margin: 100px 0px 200px 300px;
+                        }
+                        .perfil_info{
+                          text-align: justify;
+                          width:600px;
+                        }
 
 
     /*----------------------Skills----------------------------------*/
@@ -2721,7 +2950,44 @@ h4{
       .skill{
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content:c/* --------------------Perfil------------*/
+            .container_perfil{
+              display:flex;
+              flex-wrap: wrap;
+              justify-content:space-between;
+              flex-direction: row;
+            }
+            #perfil{
+              background-color:#222222; 
+              padding-bottom:300px;
+            }
+             #perfil p{
+              color: #dddddd;
+            }
+            #perfil .titles{
+              color:#fed136;
+              margin-top:30px;
+              margin-bottom:30px;
+            }
+            #perfil .profile_pic{
+              width: 400px;
+              border-radius: 10%
+            }
+            .perfil_info{
+              margin:-20px 300px 0px 0px;
+              line-height: 2.2;
+              font-size:11px;
+            }
+            .perfi_info p{
+              margin:30px
+            }
+            .image{
+              margin: 70px 0px 200px 300px;
+            }
+            .perfil_info{
+              text-align: justify;
+              width:500px;
+            }enter;
         width: 100%;
         margin:auto;
         clear: both;
@@ -3220,7 +3486,46 @@ h4{
         font-size: 40px;
       }
 
-
+      /* --------------------Perfil------------*/
+            .container_perfil{
+              display:flex;
+              flex-wrap: wrap;
+              justify-content:space-between;
+              flex-direction: row;
+              margin-top:170px;
+              margin-bottom:200px;
+            }
+            #perfil{
+              background-color:#222222; 
+              padding-bottom:300px;
+            }
+             #perfil p{
+              color: #dddddd;
+            }
+            #perfil .titles{
+              color:#fed136;
+              margin-top:30px;
+              margin-bottom:30px;
+            }
+            #perfil .profile_pic{
+              width: 800px;
+              border-radius: 10%
+            }
+            .perfil_info{
+              margin:-20px 300px 0px 0px;
+              line-height: 4;
+              font-size:16px;
+            }
+            .perfi_info p{
+              margin:30px
+            }
+            .image{
+              margin: 200px 0px 200px 300px;
+            }
+            .perfil_info{
+              text-align: justify;
+              width:800px;
+            }
 
     /*----------------------Skills----------------------------------*/
     /* laptop screen */
