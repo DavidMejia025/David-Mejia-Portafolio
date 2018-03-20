@@ -7,8 +7,8 @@
 }*/
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  margin:200px;
+  font-family: 'Limelight', cursive;
   font-size: 18px; 
   line-height: 1;
 }
@@ -147,6 +147,9 @@ h4{
 }
  #perfil p{
   color: #dddddd;
+  font-size: 14px;
+  line-height: 20px;
+
 }
 #perfil .titles{
   color: #fed136;
@@ -700,8 +703,11 @@ h4{
         background-color:#222222; 
         padding-bottom:300px;
       }
-       #perfil p{ 
+       #perfil p{
         color: #dddddd;
+        font-size: 14px;
+        line-height: 20px;
+
       }
       #perfil .titles{
         color:#fed136;
@@ -1252,6 +1258,9 @@ h4{
             }
              #perfil p{
               color: #dddddd;
+              font-size: 14px;
+              line-height: 20px;
+
             }
             #perfil .titles{
               color:#fed136;
@@ -1801,6 +1810,9 @@ h4{
           }
            #perfil p{
             color: #dddddd;
+            font-size: 14px;
+            line-height: 20px;
+
           }
           #perfil .titles{
             color:#fed136;
@@ -2368,9 +2380,12 @@ h4{
               background-color:#222222; 
               padding-bottom:300px;
             }
-             #perfil p{
-              color: #dddddd;
-            }
+              #perfil p{
+               color: #dddddd;
+               font-size: 14px;
+               line-height: 20px;
+
+             }
             #perfil .titles{
               color:#fed136;
               margin-top:30px;
@@ -2915,9 +2930,12 @@ h4{
                           background-color:#222222; 
                           padding-bottom:300px;
                         }
-                         #perfil p{
-                          color: #dddddd;
-                        }
+                          #perfil p{
+                           color: #dddddd;
+                           font-size: 14px;
+                           line-height: 20px;
+
+                         }
                         #perfil .titles{
                           color:#fed136;
                           margin-top:30px;
@@ -2964,6 +2982,9 @@ h4{
             }
              #perfil p{
               color: #dddddd;
+              font-size: 14px;
+              line-height: 20px;
+
             }
             #perfil .titles{
               color:#fed136;
@@ -3502,6 +3523,9 @@ h4{
             }
              #perfil p{
               color: #dddddd;
+              font-size: 14px;
+              line-height: 20px;
+
             }
             #perfil .titles{
               color:#fed136;
